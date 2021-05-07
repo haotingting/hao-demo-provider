@@ -1,0 +1,13 @@
+server:
+  port: 9910
+
+dubbo:
+  application:
+    name: hao-demo-provider
+    version: 1.0.0
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20887
